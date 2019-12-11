@@ -1,17 +1,104 @@
 /* RESETTING PAGE CSS TO DEFAULT */
-@import 'font.css';
-
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* border: 1px solid red !important; */
 }
 
 body {
-    font-size: 62.5%;
-    font-family: nyt-imperial, georgia, "times new roman", times, serif;
-    box-sizing: border-box;
+  font-size: 20px;
+  color: #000;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  box-sizing: border-box;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42px;
+  padding: 4px 15px 2px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.nav-left {
+  float: left;
+  width: 300px;
+}
+
+.nav-left > span {
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 12px;
+}
+
+.hamburger {
+  padding: 8px 9px 9px;
+  margin: 0 8px 0 0;
+  background: white;
+  outline: none;
+  border: none;
+}
+
+.hamburger > svg {
+  width: 16px;
+  height: 16px;
+}
+
+.search {
+  padding: 8px 9px 9px;
+  margin: 0 8px 0 0;
+  background: white;
+  outline: none;
+  border: none;
+}
+
+.search > svg {
+  width: 16px;
+  height: 16px;
+}
+
+.logo {
+  display: block;
+  float: left;
+  position: relative;
+  left: 25%;
+}
+
+.logo a {
+  width: 195px;
+  height: 26px;
+  margin: 6px auto 0;
+  display: block;
+}
+
+.logo svg {
+  height: 26px;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-right > button {
+  color: #fff;
+  background: #567b95;
+  padding: 11px 12px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  vertical-align: middle;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
