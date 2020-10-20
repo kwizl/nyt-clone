@@ -1,8 +1,8 @@
 ## Microverse NYT article clone
-This collaborative project with the goal of creating simple new york times page clone
+This collaborative project to create a simple new york times page clone
 
 ## Technologies
-This project was created using HTML5 and CSS3 you can find a live demo
+HTML5 and CSS3.
 
 ## Authors
 - [Nzube Okoye](https://github.com/zubiix)
